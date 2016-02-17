@@ -27,7 +27,7 @@ def checkStatus():
 		status = "P1"
 		print "status is " + status
 		io.output(power_pin, True)
-		os.system('omxplayer "badnewseveryoneloop2.mp3"')
+		os.system('omxplayer "tng_red_alert2.mp3"')
 		time.sleep(30)
 		io.output(power_pin, False)
 	else:
