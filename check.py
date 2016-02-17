@@ -17,7 +17,7 @@ io.output(power_pin, False)
 
 def checkStatus():
 	#Get request from API URL
-	r = requests.get('https://enigmatic-oasis-13896.herokuapp.com/get')
+	r = requests.get('https://tinkurradiator.herokuapp.com/get')
 
 	#Evaluate response and determine status
 	if r.text == "0":
